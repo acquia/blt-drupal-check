@@ -1,6 +1,5 @@
 {
   "name": "acquia/blt-drupal-check",
-  "type":"composer-plugin",
   "description": "Drupal Check integration for Acquia BLT",
   "license": "GPL-2.0+",
   "authors":[
