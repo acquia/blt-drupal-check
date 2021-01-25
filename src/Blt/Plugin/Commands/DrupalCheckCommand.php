@@ -13,7 +13,7 @@ class DrupalCheckCommand extends BltTasks {
   /**
    * Executes the deprecation-validate command.
    *
-   * @command tests:deprecated:modules
+   * @command tests:deprecatedmodules
    */
   public function validateDeprecatedModules() {
     $this->runDrupalCheck('modules');
@@ -22,7 +22,7 @@ class DrupalCheckCommand extends BltTasks {
   /**
    * Executes the deprecation-validate command.
    *
-   * @command tests:deprecated:themes
+   * @command tests:deprecatedthemes
    */
   public function validateDeprecatedThemes() {
     $this->runDrupalCheck('themes');
