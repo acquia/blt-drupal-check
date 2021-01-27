@@ -13,6 +13,16 @@ class DrupalCheckCommand extends BltTasks {
   /**
    * Executes the deprecation-validate command.
    *
+   * @command tests:deprecated
+   */
+  public function validateDeprecated() {
+    $this->validateDeprecatedModules();
+    $this->validateDeprecatedThemes();
+  }
+  
+  /**
+   * Executes the deprecation-validate command.
+   *
    * @command tests:deprecated:modules
    */
   public function validateDeprecatedModules() {
