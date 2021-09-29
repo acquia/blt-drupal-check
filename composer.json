@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "mglaman/drupal-check": ">=1.0.10 <1.1.0 || 1.1.1",
+    "mglaman/drupal-check": "^1.1",
     "phpunit/phpunit": "*"
   },
   "autoload": {
